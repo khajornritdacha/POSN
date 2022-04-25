@@ -6,6 +6,7 @@
   <li><a href="https://medium.com/@weeklycpproblems/tips-tricks-for-toi-ep-1-dijkstra-shortest-path-de30ed55c9a1"> Dijkstra Tricks </a></li>  
   <li><a href="http://tcpc.me/2019/04/12/complete-bsearch-tutorial.html"> Binary Search Guide </a></li>  
   <li><a href="https://github.com/aquablitz11/toi14-tutorial"> AquaBlitz's TOI Guide </a></li>  
+  <li><a href="https://cses.fi/book/book.pdf"> Competitive Programming Handbook </a></li>
 </ul>
 
 ## Grader
