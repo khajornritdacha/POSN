@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2564-04-22 01:09:36 PM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjsxMDo1MzoyMiBBTTsyNzcz"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjswMTowOTozNiBQTTszOzI5MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x1, x2, x3, sum, mean" type="Real" array="False" size=""/>
+            <input variable="x1"/>
+            <input variable="x2"/>
+            <input variable="x3"/>
+            <assign variable="sum" expression="x1+x2+x3"/>
+            <assign variable="mean" expression="sum/3"/>
+            <output expression="mean" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

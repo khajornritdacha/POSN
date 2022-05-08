@@ -1,0 +1,11 @@
+\begin{tutorial}{${problem.name}}
+
+<#if providedTutorialCommands?? && providedTutorialCommands?size != 0><#--
+    --><#list providedTutorialCommands as command><#--
+        -->${command?string}
+</#list>
+
+</#if>
+${problem.tutorial}
+
+\end{tutorial}

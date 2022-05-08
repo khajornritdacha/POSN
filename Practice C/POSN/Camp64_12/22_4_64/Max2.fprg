@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2564-04-22 03:38:03 PM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjswMjowMToyNSBQTTsyNzg1"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjswMzozODowMyBQTTszOzI5MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, max1, max2" type="Integer" array="False" size=""/>
+            <assign variable="max1" expression="0"/>
+            <assign variable="max2" expression="0"/>
+            <for variable="a" start="1" end="4" direction="inc" step="1">
+                <input variable="b"/>
+                <if expression="b&gt;=max1">
+                    <then>
+                        <assign variable="max2" expression="max1"/>
+                        <assign variable="max1" expression="b"/>
+                    </then>
+                    <else>
+                        <if expression="b&gt;=max2">
+                            <then>
+                                <assign variable="max2" expression="b"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;Max1 = &quot; &amp;max1" newline="True"/>
+            <output expression="&quot;Max2 = &quot; &amp;max2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

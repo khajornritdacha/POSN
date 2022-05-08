@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2564-04-22 11:09:48 AM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjsxMTowNjo1NyBBTTsyNzgw"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjsxMTowOTo0OCBBTTsxOzI4OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ID, Name, Gender" type="String" array="False" size=""/>
+            <input variable="ID"/>
+            <input variable="Name"/>
+            <input variable="Gender"/>
+            <if expression="Gender = &quot;M&quot;">
+                <then>
+                    <output expression="&quot;Male&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Female&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,5 @@
+https://www.spoj.com/problems/MIXTURES/
+https://www.proprog.ml/tasks/cut_stick/descs/309
+https://www.proprog.ml/tasks/toi10_pairoffours/descs/6779
+https://www.proprog.ml/tasks/toi11_segitiga/descs/6784
+https://www.proprog.ml/tasks/toi16_carte/descs/18359

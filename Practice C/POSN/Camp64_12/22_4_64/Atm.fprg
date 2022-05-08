@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2564-04-22 01:18:48 PM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjswMToxMzozOSBQTTsyNzky"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtTTdIVDRQMVE7MjU2NC0wNC0yMjswMToxODo0OCBQTTs0OzI5MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ID, money" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insert Card&quot;" newline="True"/>
+            <output expression="&quot;Input ID&quot;" newline="True"/>
+            <input variable="ID"/>
+            <output expression="&quot;Input money&quot;" newline="True"/>
+            <input variable="money"/>
+            <output expression="&quot;ID = &quot;&amp;ID" newline="True"/>
+            <output expression="&quot;Money = &quot; &amp;money" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
